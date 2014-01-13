@@ -1,4 +1,4 @@
 define(function(require, exports, module) {
-	var $ = require("jquery.js");
+	var $ = require("../lib/jquery.js");
 	alert("");
 })
