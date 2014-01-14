@@ -1,0 +1,29 @@
+html,body{padding:0;margin:0;height:100%}
+#tetequ{position:relative}
+#tetequ a{display:inline-block;position:relative}
+#tetequ img{border:0}
+#tetequ .loading{background:url(loading.gif) center center no-repeat;width:100%;height:100%;position:absolute;top:0;left:0;bottom:0}
+#tetequ .tetequ_play{background:url(play.png) center center no-repeat;width:100%;height:100%;position:absolute;top:0;left:0;bottom:0}
+#tetequ .tetequ_play:hover{background:url(play1.png) center center no-repeat}
+.tetequ-mask{background:#e8e8e8;width:100%;height:100%;position:absolute;z-index:0;top:0;left:0;-ms-filter:"alpha(Opacity=70)";filter:alpha(opacity=70);opacity:.7;display:none}
+.tetequ-back{z-index:1;background:#333;width:100%;height:70px;left:0;position:absolute;top:50%;margin-top:-35px;display:none}
+.tetequ-page{margin:20px auto}
+.tetequ-input-control{float:left;position:relative;background:#FFF;height:35px;width:35%}
+.tetequ-input-control label{position:absolute;top:7px;left:5px;color:#ccc;font-size:.9em;font-family:"微软雅黑";cursor:text}
+.tetequ-input-control input{padding:0;border:0;font-family:"微软雅黑"}
+.tetequ-input-control.tetequ-btn{background:transparent;width:17%}
+.tetequ-input-control.tetequ-btn input{background:#e0441e;border-radius:3px;border:0;color:#fff;font-size:100%;cursor:pointer;height:35px;width:100%;line-height:35px}
+.tetequ-input-control.tetequ-btn input:hover{background:#ca3d1b}
+.tetequ-input-control.tetequ-text{margin:0 10px}
+.tetequ-input-control.tetequ-text input{font-size:1em;background:transparent;width:95%;height:25px;margin-top:5px;margin-left:5px;outline:0}
+.tetequ-page1 .tetequ-input-control{width:72%}
+.tetequ-page1 .tetequ-input-control.tetequ-btn{width:20%}
+.fade{-webkit-transition:opacity .15s linear;-moz-transition:opacity .15s linear;-o-transition:opacity .15s linear;-ms-transition:opacity .15s linear;transition:opacity .15s linear}
+.tooltip{position:absolute;z-index:1030;display:block;visibility:visible;font-size:.7em;line-height:2;opacity:0;filter:alpha(opacity=0)}
+.tooltip.in{opacity:.9;filter:alpha(opacity=90)}
+.tooltip.top{margin-top:-3px;padding:5px 0}
+.tooltip-inner{max-width:200px;padding:3px 8px;color:#fff;text-align:left;text-decoration:none;background-color:#ca3d1b;border-radius:4px;position:relative}
+.tooltip-arrow{position:absolute;width:0;height:0;border-color:transparent;border-style:solid}
+.tooltip.top .tooltip-arrow{bottom:0;left:50%;margin-left:-5px;border-width:5px 5px 0;border-top-color:#ca3d1b}
+.tooltip.top-left .tooltip-arrow{bottom:0;left:5px;border-width:5px 5px 0;border-top-color:#ca3d1b}
+.tooltip.top-right .tooltip-arrow{bottom:0;right:5px;border-width:5px 5px 0;border-top-color:#ca3d1b}
